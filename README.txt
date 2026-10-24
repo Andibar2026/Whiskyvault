@@ -1,18 +1,10 @@
-WhiskyVault 2.0 – Update für iPhone/GitHub Pages
+WhiskyVault 2.1 – iPhone / GitHub Pages
 
-WICHTIG: ZUERST in der bestehenden App Einstellungen > Backup exportieren.
-Die App nutzt weiterhin IndexedDB Datenbank whiskyvault, Version 1, Store bottles. Bestehende Einträge bleiben bei einem normalen Update unter derselben URL erhalten. Keine Website-Daten löschen und keine neue URL verwenden.
+WICHTIG: VOR UPDATE Backup der Version 2.0 exportieren und in iCloud Drive sichern.
+Lade die fünf Dateien im Ordner whiskyvault in das ROOT desselben bestehenden GitHub-Repositories hoch. NICHT die App löschen, NICHT Safari-Daten löschen, NICHT Repository umbenennen.
 
-Alle Dateien aus diesem Ordner in das HAUPTVERZEICHNIS des bestehenden GitHub-Repositorys hochladen und vorhandene Dateien ersetzen. Nicht den Ordner selbst hochladen.
+Neu: Karten-/Listenansicht, Sortierung und Filter, Länder-/Brennerei-/Whiskyarten-Statistik, drei Fotos, 0–100-Punkte-Bewertung, Wunschliste, Dublettenwarnung, zusammenführender Backup-Import, Erinnerungszähler nach 10 Änderungen, Einzel-Preisrecherche bis zu drei Händler, Offline-Cache.
 
-Neu: Barcode-Feld, optional BarcodeDetector-Kamera (auf iPhone eventuell nicht verfügbar), Open Food Facts EAN-Abfrage, kostenpflichtige OpenAI-Websuche, manuell bestätigte Produktdaten, Tasting Notes, Brennerei-Geschichte, Richtpreise mit Datum und Quelle, Sammlungswert.
+Einschränkungen: iPhone-BarcodeDetector ist auf manchen Safari-Versionen nicht verfügbar; EAN manuell eingeben. Händlerpreise aus KI-Recherche können unvollständig oder falsch sein: Originalquelle öffnen, Größe/Edition/Währung prüfen. API-Schlüssel ist nur im Arbeitsspeicher, direkter Browserzugriff ist nicht vollständig geheim. GitHub Pages kann nicht automatisch in iCloud Drive sichern. Backup-Datei selbst in Dateien/iCloud Drive speichern. Die App hat keine Live-Synchronisation.
 
-Hinweise:
-- Die App speichert Daten lokal im selben Browser-/PWA-Kontext. Bitte regelmäßig JSON-Backups erstellen.
-- API-Schlüssel wird nur im Arbeitsspeicher gehalten. Direkte Browser-Nutzung ist ein Sicherheitsrisiko; besser künftig Backend-Proxy.
-- Open Food Facts hat nicht alle Whiskys; API/Browser-Zugriff kann blockiert sein.
-- BarcodeDetector wird nicht von allen Safari-Versionen unterstützt; manuelle EAN-Eingabe ist möglich.
-- KI-Websuche kostet API-Gebühren und kann falsch zuordnen. Nur bestätigte Vorschläge speichern.
-- Händlerpreise sind KEINE garantierten Sammler-/Wiederverkaufswerte.
-- Keine echte Live-Preisvergleichs-API, keine automatischen Preisupdates.
-- Quellenangaben können fehlen und sind kritisch zu prüfen.
+V2-Datenbank 'whiskyvault' wird unverändert weitergenutzt. Kein Test auf physischem iPhone durchgeführt. Bitte nach Upload zuerst vorhandene Flaschen prüfen, dann eine Testflasche anlegen, Fotos, Backup, Import und Offline-Betrieb testen.
