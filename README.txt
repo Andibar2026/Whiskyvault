@@ -8,3 +8,5 @@ Neu: Karten-/Listenansicht, Sortierung und Filter, Länder-/Brennerei-/Whiskyart
 Einschränkungen: iPhone-BarcodeDetector ist auf manchen Safari-Versionen nicht verfügbar; EAN manuell eingeben. Händlerpreise aus KI-Recherche können unvollständig oder falsch sein: Originalquelle öffnen, Größe/Edition/Währung prüfen. API-Schlüssel ist nur im Arbeitsspeicher, direkter Browserzugriff ist nicht vollständig geheim. GitHub Pages kann nicht automatisch in iCloud Drive sichern. Backup-Datei selbst in Dateien/iCloud Drive speichern. Die App hat keine Live-Synchronisation.
 
 V2-Datenbank 'whiskyvault' wird unverändert weitergenutzt. Kein Test auf physischem iPhone durchgeführt. Bitte nach Upload zuerst vorhandene Flaschen prüfen, dann eine Testflasche anlegen, Fotos, Backup, Import und Offline-Betrieb testen.
+
+Version 2.1.1: Preisfeld-Normalisierung und klarer Hinweis, wenn nur eine Quelle ohne belegten Zahlenwert geliefert wird. Bereits gespeicherte Daten bleiben unangetastet.
